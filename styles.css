@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+:root {
+    --primary-light-color:#075985;
+    --primary-color:#bae6fd;
+}
+
+body {
+    margin: 0px;
+    background-color: var(--primary-light-color);
+    color: var(--primary-color);
+    font-family: 'Nerko One', cursive;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+input ,label {
+    display: block;
+    text-align: center;
+}
+
+input {
+    margin: 1rem;
+    width: 100%;
+}
+
+#check-btn {
+    margin: 1rem;
+    width: auto;
+    padding: 0.5rem 1rem;
+    margin: auto;
+    background-color:var(--primary-color);
+    color: var(--primary-light-color);
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+#answer {
+    margin: 1rem;
+}
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem 0rem;
+    text-align: center;
+    color: var(--primary-light-color);
+    border-top-right-radius: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
+
+.list-non-bullet{
+    list-style: none;
+}
+
+.list-item-inline{
+    display: inline;
+    padding: 0 0.5rem;
+}
+
+.link {
+    text-decoration: none;
+    color: var(--primary-light-color);
+    padding: 0.5rem 1rem;
+}
